@@ -14,11 +14,16 @@ function evensToTwenty() {
     
    /* Return the even numbers from 1 to 20. (2, 4, 6,…18,20)
  */
+for (let counter = 1; counter <= 20; counter++) {
+  if (counter % 2 === 0){
+  console.log(counter)
+  } else{}
+}
   
 }
 
 //call function evensToTwenty
-
+evensToTwenty();
 function oddsToTwenty() {
     
   /*  Return the odd numbers from 1 to 20. (1, 3, 5,…,17,19)  */
