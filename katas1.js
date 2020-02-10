@@ -55,11 +55,19 @@ multiplesOfFive();
 
 function squareNumbers() {
     
- /* Return all numbers up to 100 that are perfect squares. (1, 4, 9, …, 81, 100)
+ /* Return all numbers up to 100 that are perfect squares. (1, 4, 9, …, 81, 100) */
+ for (let counter = 1; counter <= 100; counter++) {
+  if ((Math.sqrt(counter)) % 1 === 0){
+  console.log(counter)
+  } else{}
+ }
+ 
+
     
 }
 
 //call function squareNumbers
+squareNumbers();
 
 function countingBackwards() {
     
