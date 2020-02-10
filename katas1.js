@@ -12,9 +12,8 @@ oneThroughTwenty();
 
 function evensToTwenty() {
     
-   /* Your code goes below
-   Write a for or a while loop
-   console.log() the result */
+   /* Return the even numbers from 1 to 20. (2, 4, 6,…18,20)
+ */
   
 }
 
@@ -22,9 +21,7 @@ function evensToTwenty() {
 
 function oddsToTwenty() {
     
-  /* Your code goes below
-  Write a for or a while loop
-  console.log() the result */
+  /*  Return the odd numbers from 1 to 20. (1, 3, 5,…,17,19)  */
    
 }
 
@@ -32,9 +29,7 @@ function oddsToTwenty() {
 
 function multiplesOfFive() {
     
-  /* Your code goes below
-  Write a for or a while loop
-  console.log() the result */
+  /* Return the multiples of 5 up to 100. (5, 10, 15, …, 95, 100) */
 
 }
 
@@ -42,9 +37,7 @@ function multiplesOfFive() {
 
 function squareNumbers() {
     
- /* Your code goes below
-  Write a for or a while loop
-  console.log() the result */
+ /* Return all numbers up to 100 that are perfect squares. (1, 4, 9, …, 81, 100)
     
 }
 
@@ -52,45 +45,35 @@ function squareNumbers() {
 
 function countingBackwards() {
     
-  /* Your code goes below
-  Write a for or a while loop
-  console.log() the result */
+  /* Return the numbers counting backwards from 20 to 1. (20, 19, 18, …, 2, 1) */
 }
 
 //call function countingBackwards
 
 function evenNumbersBackwards() {
     
- /* Your code goes below
-  Write a for or a while loop
-  console.log() the result */
+ /* Return the even numbers counting backwards from 20. (20, 18, 16, …, 4, 2) */
 }
 
 //call function evenNumbersBackwards
 
 function oddNumbersBackwards() {
     
- /* Your code goes below
-  Write a for or a while loop
-  console.log() the result */
+ /* Return the odd numbers from 20 to 1, counting backwards. (19, 17, 15, …, 3, 1) */
 }
 
 //call function oddNumbersBackwards
 
 function multiplesOfFiveBackwards() {
     
- /* Your code goes below
-  Write a for or a while loop
-  console.log() the result */
+ /* Return the multiples of 5, counting down from 100. (100, 95, 90, …, 10, 5) */
 }
 
 //call function multiplesOfFiveBackwards
 
 function squareNumbersBackwards() {
     
-   /* Your code goes below
-  Write a for or a while loop
-  console.log() the result */
+   /* Return the numbers that are perfect squares, counting down from 100. (100, 81, 64, …, 4, 1)*/
 }
 
 //call function squareNumbersBackwards
