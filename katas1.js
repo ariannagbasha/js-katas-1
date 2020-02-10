@@ -61,9 +61,6 @@ function squareNumbers() {
   console.log(counter)
   } 
  }
- 
-
-    
 }
 
 //call function squareNumbers
@@ -111,14 +108,26 @@ oddNumbersBackwards();
 function multiplesOfFiveBackwards() {
     
  /* Return the multiples of 5, counting down from 100. (100, 95, 90, …, 10, 5) */
- 
+ for (let counter = 100; counter >= 1; counter--) {
+  if (counter % 5 === 0){
+    console.log(counter)
+
+  }
+  }
 }
 
 //call function multiplesOfFiveBackwards
+multiplesOfFiveBackwards();
 
 function squareNumbersBackwards() {
     
    /* Return the numbers that are perfect squares, counting down from 100. (100, 81, 64, …, 4, 1)*/
+   for (let counter = 100; counter >= 1; counter--) {
+    if ((Math.sqrt(counter)) % 1 === 0){
+    console.log(counter)
+    } 
+   }
 }
 
 //call function squareNumbersBackwards
+squareNumbersBackwards();
