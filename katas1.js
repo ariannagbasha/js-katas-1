@@ -106,10 +106,12 @@ function oddNumbersBackwards() {
 }
 
 //call function oddNumbersBackwards
+oddNumbersBackwards();
 
 function multiplesOfFiveBackwards() {
     
  /* Return the multiples of 5, counting down from 100. (100, 95, 90, …, 10, 5) */
+ 
 }
 
 //call function multiplesOfFiveBackwards
