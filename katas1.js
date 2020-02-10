@@ -75,20 +75,34 @@ function countingBackwards() {
   for (let counter = 20; counter >= 1; counter--) {
     console.log(counter)
    }
-}
+  }
 
 //call function countingBackwards
+countingBackwards();
 
 function evenNumbersBackwards() {
     
  /* Return the even numbers counting backwards from 20. (20, 18, 16, …, 4, 2) */
+ for (let counter = 20; counter >= 1; counter--) {
+  if (counter % 2 === 0){
+    console.log(counter)
+
+  }
+ }
 }
 
 //call function evenNumbersBackwards
+evenNumbersBackwards();
 
 function oddNumbersBackwards() {
     
  /* Return the odd numbers from 20 to 1, counting backwards. (19, 17, 15, …, 3, 1) */
+ for (let counter = 20; counter >= 1; counter--) {
+  if (counter % 2 !== 0){
+    console.log(counter)
+
+  }
+ }
 }
 
 //call function oddNumbersBackwards
