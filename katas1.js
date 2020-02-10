@@ -42,10 +42,16 @@ oddsToTwenty();
 function multiplesOfFive() {
     
   /* Return the multiples of 5 up to 100. (5, 10, 15, …, 95, 100) */
+  for (let counter = 1; counter <= 100; counter++) {
+    if (counter % 5 === 0){
+    console.log(counter)
+    } else{}
+  }
 
 }
 
 //call function multiplesOfFive
+multiplesOfFive();
 
 function squareNumbers() {
     
