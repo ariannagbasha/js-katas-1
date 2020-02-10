@@ -21,7 +21,7 @@ function evensToTwenty() {
   }
   
 }
-
+}
 //call function evensToTwenty
 evensToTwenty();
 
