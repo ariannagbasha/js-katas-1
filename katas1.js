@@ -1,12 +1,14 @@
 function oneThroughTwenty() {
     
-   /* Your code goes below
-   Write a for or a while loop
-   console.log() the result*/
-    
+   /* Return all numbers 1 through 20*/
+   for (let counter = 1; counter <= 20; counter++) {
+    console.log(counter)
+}
+
 }
 
 //call function oneThroughTwenty
+oneThroughTwenty();
 
 function evensToTwenty() {
     
